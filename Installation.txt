@@ -1,0 +1,15 @@
+Compile FW6 user space
+
+	#gcc FW6.c -o FW6  //output is FW6.o
+
+Compile FW6 kernel space
+	
+	#make			//output is FW6_klm.ko
+
+Install FW6_klm.ko to Linux kernel module
+
+	#insmod smpf_ko.ko
+
+Remove FW6_klm.ko from Linux kernel module
+
+	#rmmod smpf_ko
